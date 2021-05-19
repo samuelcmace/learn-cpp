@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (cmdcli)
+add_executable(espeak espeak.cpp)
+add_executable(cowsay cowsay.cpp)
+add_executable(xcowsay xcowsay.cpp)
